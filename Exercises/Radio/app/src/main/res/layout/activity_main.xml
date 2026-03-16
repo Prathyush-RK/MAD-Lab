@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Colour" />
+
+    <RadioGroup
+        android:id="@+id/rgColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbRed"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Red"/>
+
+        <RadioButton
+            android:id="@+id/rbGreen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Green"/>
+
+        <RadioButton
+            android:id="@+id/rbBlue"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Blue"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset" />
+
+
+</LinearLayout>
